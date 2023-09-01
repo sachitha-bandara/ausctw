@@ -92,16 +92,6 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Schedules
               </Nav.Link>
             </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <ImBlog style={{ marginBottom: "2px" }} /> Contact
-              </Nav.Link>
-            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>
