@@ -8,11 +8,69 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import SpeakerCards from "./kSpeaker";
+import speaker1 from "../../Assets/speaker1.png"
 
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
+      <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={2} className="speaker-card">
+            <SpeakerCards
+              imgPath={speaker1}
+              isBlog={false}
+              title="Sachitha Bandara"
+              description="Senior Vice President and Chief Technology Officer of Agilent Technologies"
+              ghLink="https://github.com/soumyajit4419/Chatify"
+              demoLink="https://chatify-49.web.app/"
+            />
+          </Col>
+
+          <Col md={2} className="speaker-card">
+            <SpeakerCards
+              imgPath={speaker1}
+              isBlog={false}
+              title="Sachitha Bandara"
+              description="Senior Vice President and Chief Technology Officer of Agilent Technologies"
+              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              demoLink="https://blogs.soumya-jit.tech/"
+            />
+          </Col>
+
+          <Col md={2} className="speaker-card">
+            <SpeakerCards
+              imgPath={speaker1}
+              isBlog={false}
+              title="Sachitha Bandara"
+              description="Senior Vice President and Chief Technology Officer of Agilent Technologies"
+              ghLink="https://github.com/soumyajit4419/Plant_AI"
+              demoLink="https://plant49-ai.herokuapp.com/"
+            />
+          </Col>
+
+          <Col md={2} className="speaker-card">
+            <SpeakerCards
+              imgPath={speaker1}
+              isBlog={false}
+              title="Sachitha Bandara"
+              description="Senior Vice President and Chief Technology Officer of Agilent Technologies"
+              ghLink="https://github.com/soumyajit4419/Plant_AI"
+              demoLink="https://plant49-ai.herokuapp.com/"
+            />
+          </Col>
+
+          <Col md={2} className="speaker-card">
+            <SpeakerCards
+              imgPath={speaker1}
+              isBlog={false}
+              title="Sachitha Bandara"
+              description="Senior Vice President and Chief Technology Officer of Agilent Technologies"
+              ghLink="https://github.com/soumyajit4419/Plant_AI"
+              demoLink="https://plant49-ai.herokuapp.com/"
+            />
+          </Col>
+        </Row>
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>

@@ -457,6 +457,57 @@ button:focus {
 .blockquote-footer {
   color: white !important;
 }
+
+.speaker-card{
+  width: 80px;
+}
+
+/* Speaker card container */
+.speaker-card-view {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Speaker card image */
+.speaker-card-view .sCard-img-top {
+  max-width: 100%;
+  max-height:max-content;
+  border-radius: 5px;
+}
+
+/* Speaker card title */
+.speaker-card-view .card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Speaker card description */
+.speaker-card-view .card-text {
+  text-align: justify;
+  margin-top: 10px;
+}
+
+/* GitHub and Demo buttons */
+.speaker-card-view .btn-primary {
+  margin-top: 10px;
+  font-size: 1rem;
+  padding: 5px 15px;
+  text-transform: uppercase;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  .speaker-card-view {
+    margin: 10px 0;
+  }
+}
+
 /* --------- */
 /* Projects */
 /* --------- */
@@ -534,14 +585,14 @@ button:focus {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #623686 !important;
-  border-color: #623686 !important;
+  background-color: #0a58ca !important;
+  border-color: #033785 !important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #6d20c5d7 !important;
-  border-color: #6d20c5d7 !important;
+  background-color: #033785 !important;
+  border-color: #033785 !important;
 }
 .btn:focus {
   outline: none !important;

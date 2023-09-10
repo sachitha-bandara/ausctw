@@ -7,7 +7,7 @@ import { BsGithub } from "react-icons/bs";
 function SpeakerCards(props) {
     return (
       <Card className="speaker-card-view">
-        <Card.Img variant="top" src={props.imgPath} alt="card-img" />
+        <Card.Img variant="top" src={props.imgPath} alt="sCard-img" />
         <Card.Body>
           <Card.Title>{props.name}</Card.Title>
           <Card.Text style={{ textAlign: "justify" }}>
