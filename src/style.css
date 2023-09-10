@@ -87,7 +87,7 @@ button:focus {
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
-  font-size: 1.2rem !important;
+  font-size: 0.9rem !important;
   background-color: rgba(0, 0, 0, 0.6);
 }
 
@@ -254,18 +254,22 @@ button:focus {
 }
 
 .home-header {
-  padding-top: 0px !important;
+  padding-top: 100px !important;
 }
 
 .home-section {
-  position: relative;
+  position:static;
+  margin-top: 100px;
   z-index: -1;
-  background-image: linear-gradient(rgba(0,0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./Assets/uni2.jpg);
+  color: white;
+  background-image:  url(./Assets/uni.jpg);
   background-position: top;
   background-repeat: no-repeat;
-  background-size: 100% auto;
-  min-height: 100vh;
-  background-attachment: fixed;
+  background-size:contain;
+  height:auto;
+  max-width: 100%;
+  vertical-align: top;
+  background-attachment:scroll;
 }
 
 @media (max-width: 768px) {
