@@ -64,36 +64,58 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/about"
+                to="/committee"
                 onClick={() => updateExpanded(false)}
               >
                 {/* <AiOutlineUser style={{ marginBottom: "2px" }} /> */}
-                 About
+                 Committee
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/project"
+                to="/program"
                 onClick={() => updateExpanded(false)}
               >
                 {/* <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
                 /> */}
                 {" "}
-                Registration
+                Program
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/resume"
+                to="/registration"
                 onClick={() => updateExpanded(false)}
               >
                 {/* <CgFileDocument style={{ marginBottom: "2px" }} /> */}
-                 Schedules
+                 Registration
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/venue"
+                onClick={() => updateExpanded(false)}
+              >
+                {/* <CgFileDocument style={{ marginBottom: "2px" }} /> */}
+                 Venue & Travel
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/contact-us"
+                onClick={() => updateExpanded(false)}
+              >
+                {/* <CgFileDocument style={{ marginBottom: "2px" }} /> */}
+                 Contact Us
               </Nav.Link>
             </Nav.Item>
           </Nav>

@@ -6,6 +6,11 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
+import Venue from "./components/Venue/Venue";
+import Contact from "./components/Contact/Contact";
+import Program from "./components/Program/Program";
+import Committee from "./components/Committee/Committee";
+import Registration from "./components/Registration/Registration";
 import {
   BrowserRouter as Router,
   Route,
@@ -36,9 +41,11 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/project" element={<Projects />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/resume" element={<Resume />} />
+          <Route path="/program" element={<Program />} />
+          <Route path="/registration" element={<Registration />} />
+          <Route path="/committee" element={<Committee />} />
+          <Route path="/venue" element={<Venue />} />
+          <Route path="/cotact-us" element={<Contact />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
