@@ -128,52 +128,24 @@ function Home2() {
           </Col>
         </Row>
         <Row>
-          <Col md={12} className="home-about-social">
-            <p>
-              Feel free to <span className="purple">connect </span>with us
+          <Col md={12} className="home-about-body">
+            <h2 style={{textAlign:"center"}}>
+              News and <span className="purple">Announcements </span>
+            </h2>
+            <br/>
+            <br />
+            <p style={{paddingLeft:"20px", fontSize:"1.2em !important"}}>
+              <strong>Welcome to the Australian Communication Theory Workshop (AusCTW) website.</strong>
+              <br />
+              <br />
+              AusCTW 2024 conference will be held <strong>in person 4 - 7 Feb 2024, in Melbourne</strong>
+              <br />
+              <br />
+              <strong>Instructions for Presenters available</strong>
+              <br/>
+              <br/>
+              If you are to present your work at AusCTW 2024, you can find instructions on technical equipment and guidelines for presentation here: '' - see you in Melbourne.
             </p>
-            <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://twitter.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
-            </ul>
           </Col>
         </Row>
       </Container>
