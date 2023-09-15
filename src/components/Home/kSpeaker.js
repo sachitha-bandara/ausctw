@@ -1,36 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import { CgWebsite } from "react-icons/cg";
-import { BsGithub } from "react-icons/bs";
+import SpeakerBio from "./SpeakerBio.js";
 
 function SpeakerCards(props) {
+
+    const [showModal, setShowModal] = useState(false);
+
+    const handleShowModal = () => {
+      setShowModal(true);
+    };
+
+    const handleCloseModal = () => {
+      setShowModal(false);
+    };
+
     return (
       <Card className="speaker-card-view">
         <Card.Img variant="top" src={props.imgPath} alt="sCard-img" />
         <Card.Body>
           <Card.Title>{props.name}</Card.Title>
-          <Card.Text style={{ textAlign: "justify" }}>
-            {props.description}
+          <Card.Text style={{ textAlign: "center" }}>
+            {props.affiliation}
           </Card.Text>
-          <Button variant="primary" href={props.ghLink} target="_blank">
-            <BsGithub /> &nbsp;
-            {props.isBlog ? "Blog" : "GitHub"}
+          <Button variant="primary" onClick={handleShowModal}>
+            Bio
           </Button>
-          {"\n"}
-          {"\n"}
-  
-          {!props.isBlog && props.demoLink && (
-            <Button
-              variant="primary"
-              href={props.demoLink}
-              target="_blank"
-              style={{ marginLeft: "10px" }}
-            >
-              <CgWebsite /> &nbsp;
-              {"Demo"}
-            </Button>
-          )}
+          <SpeakerBio show={showModal} handleClose={handleCloseModal} description={props.description} title={props.name}/>
         </Card.Body>
       </Card>
     );
