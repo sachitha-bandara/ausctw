@@ -89,6 +89,20 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
+                to="/submissions"
+                onClick={() => updateExpanded(false)}
+              >
+                {/* <AiOutlineFundProjectionScreen
+                  style={{ marginBottom: "2px" }}
+                /> */}
+                {" "}
+                Submissions
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
                 to="/registration"
                 onClick={() => updateExpanded(false)}
               >

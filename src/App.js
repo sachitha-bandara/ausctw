@@ -11,6 +11,7 @@ import Contact from "./components/Contact/Contact";
 import Program from "./components/Program/Program";
 import Committee from "./components/Committee/Committee";
 import Registration from "./components/Registration/Registration";
+import Submissions from "./components/Submissions/Submissions";
 import {
   BrowserRouter as Router,
   Route,
@@ -42,6 +43,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/program" element={<Program />} />
+          <Route path="/submissions" element={<Submissions />} />
           <Route path="/registration" element={<Registration />} />
           <Route path="/committee" element={<Committee />} />
           <Route path="/venue" element={<Venue />} />

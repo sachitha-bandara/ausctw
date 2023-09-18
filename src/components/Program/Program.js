@@ -10,7 +10,7 @@ function Program() {
       <Container fluid id="program"  className="home-content"> 
         <BannerOther mainText="Program"/>
       </Container>
-      {/* <Schedule /> */}
+      <Schedule />
     </section>
   );
 }
