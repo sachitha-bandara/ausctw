@@ -19,7 +19,7 @@ function Contact() {
         Rajitha Senanayake <br/>
         Department of Electrical and Electronic Engineering <br/>
         The University of Melbourne, Victoria 3010 Australia <br/>
-        Email: rajitha.senanayake@unimelb.edu.au
+        Email: <a href="rajitha.senanayake@unimelb.edu.au">rajitha.senanayake@unimelb.edu.au</a>
 
         </span>
       </Row>
