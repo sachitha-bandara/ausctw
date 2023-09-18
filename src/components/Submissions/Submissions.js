@@ -31,6 +31,14 @@ function Submissions() {
             </li>
 
         </ol>
+        <br/>
+      </Container>
+      <Container>
+      <span><strong>Submission guidelines for the 5-min Thesis Competition</strong> </span>
+        <br/>
+        <br/>
+        <p style={{textAlign:"left"}}>The 5-min Thesis Competition is open only for the final year PhD students. To enter the competition please submit the title and a brief abstract (maximum 300 words), along with the start date of your PhD and the list of publications from your PhD work by 7 January 2024. All this information should be submitted in one PDF document and to be emailed to the submissions and awards co-chair Erfan Khodard (email: Erfan Khordad <a href="erfan.khordad@unimelb.edu.au">erfan.khordad@unimelb.edu.au</a>).</p><br/>
+        <p style={{textAlign:"left"}}>Our selection committee will go through the submissions and select 5 applications to be presented at the workshop. You will be informed of the results of your submission by 14th January 2024.</p>
       </Container>
     </section>
   );

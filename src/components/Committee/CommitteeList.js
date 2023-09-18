@@ -20,8 +20,8 @@ function CommitteeList(){
             <p><strong>Local arrangements Co-chairs</strong></p>
             <p>Shalanika Dayarathna, Supuni Gunasekara</p>
             <br/>
-            <p><strong>Poster Session  Co-chairs</strong></p>
-            <p>Tharaka Perera,  Zainab Zaidi</p>
+            <p><strong>Submissions and Awards Co-chairs</strong></p>
+            <p>Tharaka Perera,  Zainab Zaidi, Erfan Khordad</p>
             <br/>
             <br/>
             <h1 style={{ fontSize: "2em" }}>
