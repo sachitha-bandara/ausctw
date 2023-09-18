@@ -13,6 +13,7 @@ import philippa from "../../Assets/philippa.jpg";
 import matthew from "../../Assets/MatthewMcKay.jpg";
 import emanuele from "../../Assets/Emanuele-Viterbo.jpg";
 import steven from "../../Assets/StevenWeller.jpg";
+import CardList from "./CardList";
 
 function Home2() {
   return (
@@ -21,6 +22,8 @@ function Home2() {
         <Row style={{ justifyContent: "center", paddingBottom: "5px" }}>
            <h1 style={{ fontSize: "2.6em" }}>
               <span className="purple"> Keynote </span> Speakers
+              <br/>
+              <br/>
           </h1>
         </Row>
       <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
@@ -28,7 +31,7 @@ function Home2() {
             <SpeakerCards
               imgPath={philippa}
               name="Philippa Martin"
-              affiliation="University of Canterbury, Christchurch, NZ"
+              affiliation="University of Canterbury, NZ"
               description="Prof. Philippa Martin received the B.E. (Hons.) and Ph.D. degrees in electrical and electronic engineering from Te Whare Wānanga o Waitahi | University of Canterbury (UC), Ōtautahi | Christchurch, Aotearoa | New Zealand, in 1997 and 2001, respectively. She was a Postdoctoral Fellow there in 2001-2004. In 2002, she was a Visiting Researcher at the University of Hawaii at Manoa, USA. Since 2004, she has been an Academic with UC, where she is currently a Professor. She is a Fellow of Engineering New Zealand, Senior Member of IEEE and a Senior Fellow of the Higher Education Academy, UK.  
 
               Her communications research interests include error correction coding, decoding and detection algorithms, equalization, multiple antenna systems, channel modelling, and 5G-6G communications, in particular for wireless communications. She served as an Editor of the IEEE Transactions on Wireless Communications in 2005-2008 and 2014-2016. She was a member of the IEEE Communication Society Board of Governors in 2019-2021 and currently serves on their Financial standing committee.  
@@ -50,7 +53,7 @@ function Home2() {
             <SpeakerCards
               imgPath={steven}
               name="Steven Weller"
-              affiliation="University of Newcastle, Executive Director, Engineering and Information Sciences, ARC"
+              affiliation="Australian Research Council"
               description="Professor Steven Weller joined the ARC as Executive Director, Engineering, Information and Computing Sciences in March 2023.
 
               Prof. Weller received the B.E. (Hons. I) degree in Computer Engineering in 1988, the M.E. degree in Electrical Engineering in 1992, and the Ph.D. degree in Electrical Engineering in 1994, all from the University of Newcastle, Australia.
@@ -72,79 +75,81 @@ function Home2() {
             />
           </Col>
         </Row>
+        {/* <div className="container mx-auto p-4">
+          <h1 className="text-2xl font-semibold mb-4">Card Collection</h1>
+          <CardList />
+        </div> */}
         <Row>
-          <Col md={8} className="home-about-description">
+          <Col md={12} className="home-about-description">
             <h1 style={{ fontSize: "2em" }}>
               <span className="purple"> Technical </span> Speakers
             </h1>
-            <p className="home-about-body" style={{paddingLeft:"20px", fontSize:"1.2em"}}>
-              1. Xiangyun (Sean) Zhou (Australian National University)
+            <ul className="home-about-body" style={{paddingLeft:"180px", fontSize:"1.2em"}}>
+              <li>Akram Hourani (RMIT)</li>
+          
+              <br/>
+              <li>Amin Sakzad (Monash University)</li>
+           
+              <br/>
+              <li>Felix Shen (University of Western Australia)</li>
+         
+              <br/>
+              <li>Girish Nair (University of Melbourne)</li>
+              <br/>
+              <li>Margreta Kuijper (University of Melbourne)</li>
+          
+              <br/>
+              <li>Pawel Dmochowski (Victoria University of Wellington, NZ)</li>
+           
+              <br/>
+              <li>Ross Murch (HKUST)</li>
+           
+              <br/>
+              <li>Siu Wai Ho (University of Adelaide)</li>
+             
+              <br/>
+              <li>Tao Huang (James Cook University)</li>
+            
+              <br/>
+              <li>Thanh Tung Vu (Macquarie University)</li>
+            
+              <br/>
+              <li>Tian Han (University of Melbourne)</li>
+              
+              <br/>
+              <li>Wibowo Hardjawana (University of Sydney)</li>
+          
+              <br/>
+              <li>Xiangyun (Sean) Zhou (Australian National University)</li>
+             
+              <br/>
+              <li>Yue Rong (Curtin University)</li> 
               <br />
-              <br/>
-              2. Margreta Kuijper (University of Melbourne)
-              <br />
-              <br/>
-              3. Amin Sakzad (Monash University)
-              <br />
-              <br/>
-              4. Thanh Tung Vu (Macquarie University)
-              <br/>
-              <br/>
-              5. Wibowo Hardjawana (University of Sydney)
-              <br/>
-              <br/>
-              6. Yue Rong (Curtin University)
-              <br/>
-              <br/>
-              7. Ross Murch (HKUST)
-              <br />
-              <br/>
-              8. Felix Shen (University of Western Australia)
-              <br />
-              <br/>
-              9. Siu Wai Ho (University of Adelaide)
-              <br />
-              <br/>
-              10. Akram Hourani (RMIT)
-              <br />
-              <br/>
-              11. Tian Han (University of Melbourne)
-              <br />
-              <br/>
-              12. Pawel Dmochowski (Victoria University of Wellington, NZ)
-              <br />
-              <br/>
-              13. Tao Huang (James Cook University)
-              < br/>
-              <br/>
-              14. Girish Nair (University of Melbourne)
-              <br />
-            </p>
+            </ul>
           </Col> 
-          <Col md={4} className="myAvtar">
+          {/* <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
-          </Col>
+          </Col> */}
         </Row>
         <Row>
           <Col md={12} className="home-about-body">
             <h2 style={{textAlign:"center"}}>
-              News and <span className="purple">Announcements </span>
+              <span className="purple">Announcements </span>
             </h2>
             <br/>
             <br />
             <p style={{paddingLeft:"20px", fontSize:"1.2em !important"}}>
-              <strong>Welcome to the Australian Communication Theory Workshop (AusCTW) website.</strong>
+              <strong>The 21st Australian Communications Theory Workshop (AusCTW) will be held at the University of Melbourne, 5-7 February 2024. </strong>
               <br />
               <br />
-              AusCTW 2024 conference will be held <strong>in person 4 - 7 Feb 2024, in Melbourne</strong>
+              Workshop registration will open soon!
               <br />
               <br />
-              <strong>Instructions for Presenters available</strong>
+              <strong>o facilitate maximum participation, all attendees are invited to present a poster at the workshop. More information about the poster abstract submission will be available soon.</strong>
               <br/>
-              <br/>
-              If you are to present your work at AusCTW 2024, you can find instructions on technical equipment and guidelines for presentation here: '' - see you in Melbourne.
+              
             </p>
           </Col>
         </Row>

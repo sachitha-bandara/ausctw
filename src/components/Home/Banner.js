@@ -3,19 +3,19 @@
 import React from 'react';
 import {Container, Row, Col} from 'react-bootstrap'
 
-function Banner() {
+function Banner(props) {
   return (
     <div className="banner">
-      <Container className="home-content banner-component">
+      <div className="home-content banner-component">
           <Row>
-            <Col md={10} className="home-header">
+            <Col md={12} className="home-header">
               <h1 className="heading-name">
-                <strong className="main-name"> Australian Communication Theory Workshop (AusCTW)</strong>
+                <strong className="main-name"> {props.mainText}</strong>
               </h1>
-              <h2 className='heading-name'> 4-7 February 2024, Melbourne</h2>
+              <h2 className='heading-name'> {props.secondaryText}</h2>
             </Col>
           </Row>
-        </Container>
+        </div>
     </div>
   );
 }

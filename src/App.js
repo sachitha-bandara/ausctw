@@ -45,10 +45,10 @@ function App() {
           <Route path="/registration" element={<Registration />} />
           <Route path="/committee" element={<Committee />} />
           <Route path="/venue" element={<Venue />} />
-          <Route path="/cotact-us" element={<Contact />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </Router>
   );

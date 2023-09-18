@@ -9,8 +9,7 @@ function Home() {
   return (
     <section>
       <Container fluid id="home"  className="home-content"> 
-        {/* <Particle /> */}
-        <Banner/>
+        <Banner mainText="Australian Communications and Theory Workshop" secondaryText="5-7 February, 2024 - Melbourne"/>
       </Container>
       <Home2 />
     </section>

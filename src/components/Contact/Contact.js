@@ -1,51 +1,29 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Banner from "../Home/Banner";
 // import Particle from "../Particle";
+
 function Contact() {
   return (
-    <Container fluid className="about-section">
-      {/* <Particle /> */}
-      <Container>
-        <h1>
-            Please contact us at UniMelb!
-        </h1>
-        {/* <Row style={{ justifyContent: "center", padding: "10px" }}>
-          <Col
-            md={7}
-            style={{
-              justifyContent: "center",
-              paddingTop: "30px",
-              paddingBottom: "50px",
-            }}
-          >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
-            </h1>
-            <Aboutcard />
-          </Col>
-          <Col
-            md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
-            className="about-img"
-          >
-            <img src={laptopImg} alt="about" className="img-fluid" />
-          </Col>
-        </Row>
-        <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
-        </h1>
-
-        <Techstack />
-
-        <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
-        </h1>
-        <Toolstack />
-
-        <Github /> */}
-
+    <section>
+      <Container fluid id="contact"  className="home-content"> 
+        <Banner mainText="Contact Us"/>
       </Container>
-    </Container>
+      <Row>
+        <span>
+          <strong>Please Contact the General Chair of the workshop for any inquiries.</strong>
+        </span>
+        <br />
+        <br />
+        <span>
+        Rajitha Senanayake <br/>
+        Department of Electrical and Electronic Engineering <br/>
+        The University of Melbourne, Victoria 3010 Australia <br/>
+        Email: rajitha.senanayake@unimelb.edu.au
+
+        </span>
+      </Row>
+    </section>
   );
 }
 export default Contact;
