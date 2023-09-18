@@ -5,9 +5,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Schedule() {
     return (
         <Container>
-            <h1 style={{ fontSize: "2em", paddingBottom:"20px"}}>
-              <span className="purple"> Program </span> at a glance
-        </h1>
       <Table responsive bordered>
         <thead>
           <tr>
@@ -24,15 +21,15 @@ function Schedule() {
           </tr>
           <tr>
             <td>9.10 - 10.10 am</td>
-            <td> <strong>[Keynote talk]</strong> 
-                <br/> Prof. Matthew McKay
-                <br/>University of Melbourne
-            </td>
-            <td> <strong>[Keynote talk]</strong> 
+            <td> <strong>[Keynote Talk]</strong> 
                 <br/> Prof. Philippa Martin
                 <br/>University of Canterbury
             </td>
-            <td> <strong>[Keynote talk]</strong> 
+            <td> <strong>[Keynote Talk]</strong> 
+                <br/> Prof. Steven Weller
+                <br/>ARC
+            </td>
+            <td> <strong>[Keynote Talk]</strong> 
                 <br/> Prof. Emanuele Viterbo
                 <br/>Monash University
             </td>
@@ -43,11 +40,11 @@ function Schedule() {
           </tr>
           <tr>
             <td>10.40 - 12.00 pm</td>
-            <td> <strong>[Poster]</strong> 
+            <td> <strong>[Poster Session]</strong> 
             </td>
-            <td> <strong>[Poster]</strong> 
+            <td> <strong>[Poster Session]</strong> 
             </td>
-            <td> <strong>[Technical talk]</strong> 
+            <td> <strong>[Technical Talk]</strong> 
                 <br/> A/Prof. Akram Hourani
                 <br/>RMIT <br/>
                 <br/>Dr. Thanh Tung Vu
@@ -64,9 +61,9 @@ function Schedule() {
           </tr>
           <tr>
             <td>1.30 - 2.30 pm</td>
-            <td> <strong>[Keynote talk]</strong> 
-                <br/> Prof. Steven Weller
-                <br/>ARC
+            <td> <strong>[Keynote Talk]</strong> 
+                <br/> Prof. Matthew McKay
+                <br/>University of Melbourne
             </td>
             <td> <strong>[Panel Discussion]</strong> 
                 
@@ -76,7 +73,7 @@ function Schedule() {
           </tr>
           <tr>
             <td>2.30 - 2.50 pm</td>
-            <td> <strong>[Technical talk]</strong> 
+            <td> <strong>[Technical Talk]</strong> 
                 <br/> Prof. Xiangyun Zhou
                 <br/>Australian National University
             </td>
@@ -89,9 +86,9 @@ function Schedule() {
           </tr>
           <tr>
             <td>2.50 - 3.10 pm</td>
-            <td> <strong>[Technical talk]</strong> 
-                <br/> Prof. Margreta Kuijper
-                <br/>University of Melbourne
+            <td> <strong>[Technical Talk]</strong> 
+            <br/> Dr. Felix Shen
+                <br/>University of Western Australia
             </td>
             <td> <strong>[Technical Talk]</strong> 
             <br/> Dr. Tao Huang
@@ -106,42 +103,42 @@ function Schedule() {
           </tr>
           <tr>
             <td>3.40 - 4.00 pm</td>
-            <td> <strong>[Technical talk]</strong> 
+            <td> <strong>[Technical Talk]</strong> 
                 <br/> Mr. Tian Han
                 <br/>University of Melbourne
             </td>
-            <td> <strong>[3-min thesis competition]</strong> 
+            <td> <strong>[5-min Thesis Competition]</strong> 
             </td>
             <td> 
             </td>
           </tr>
           <tr>
             <td>4.00 - 4.20 pm</td>
-            <td> <strong>[Technical talk]</strong> 
+            <td> <strong>[Technical Talk]</strong> 
                 <br/>Dr. Amin Sakzad
                 <br/>Monash University
             </td>
-            <td> <strong>[3-min thesis competition]</strong> 
+            <td> <strong>[5-min Thesis Competition]</strong> 
             </td>
             <td> 
             </td>
           </tr>
           <tr>
             <td>4.20 - 4.40 pm</td>
-            <td> <strong>[Technical talk]</strong> 
+            <td> <strong>[Technical Talk]</strong> 
                 <br/> A/Prof. Pawel Dmochowski
                 <br/>Victoria University of Wellington, NZ
             </td>
             <td> <strong>[Technical Talk]</strong> 
-            <br/> Dr. Felix Shen
-                <br/>University of Western Australia
+                <br/> Prof. Margreta Kuijper
+                <br/>University of Melbourne
             </td>
             <td> 
             </td>
           </tr>
           <tr>
             <td>4.40 - 5.00 pm</td>
-            <td> <strong>[Technical talk]</strong> 
+            <td> <strong>[Technical Talk]</strong> 
                 <br/> Prof. Yue Rong
                 <br/>Curtin University
             </td>
