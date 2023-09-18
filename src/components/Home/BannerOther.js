@@ -3,16 +3,15 @@
 import React from 'react';
 import {Container, Row, Col} from 'react-bootstrap'
 
-function Banner(props) {
+function BannerOther(props) {
   return (
     <div className="banner">
       <div className="home-content banner-component">
           <Row>
             <Col md={12} className="home-header">
-              <h1 className="heading-name">
-                <div className="main-name"> The 21<sup>st</sup> Australian Communications Theory Workshop</div>
+              <h1 className="banner-title-other">
+                <div className="main-name"> {props.mainText}</div>
               </h1>
-              <h2 className='heading-name'> {props.secondaryText}</h2>
             </Col>
           </Row>
         </div>
@@ -20,4 +19,4 @@ function Banner(props) {
   );
 }
 
-export default Banner;
+export default BannerOther;

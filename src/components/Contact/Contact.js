@@ -1,13 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Banner from "../Home/Banner";
+import BannerOther from "../Home/BannerOther";
 // import Particle from "../Particle";
 
 function Contact() {
   return (
     <section>
       <Container fluid id="contact"  className="home-content"> 
-        <Banner mainText="Contact Us"/>
+        <BannerOther mainText="Contact Us"/>
       </Container>
       <Row>
         <span>

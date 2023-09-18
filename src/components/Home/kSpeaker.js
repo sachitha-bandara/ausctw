@@ -24,7 +24,7 @@ function SpeakerCards(props) {
         </div>
       </div>
         <Card.Body>
-          <Card.Title onClick={handleShowModal}>{props.name}</Card.Title>
+          <Card.Title onClick={handleShowModal} className="s-card-title">{props.name}</Card.Title>
           <Card.Text style={{ textAlign: "center" }}>
             {props.affiliation}
           </Card.Text>

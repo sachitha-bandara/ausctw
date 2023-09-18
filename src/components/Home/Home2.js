@@ -71,7 +71,10 @@ function Home2() {
               imgPath={emanuele}
               name="Emanuele Viterbo"
               affiliation="Monash University"
-              description="Emanuele Viterbo"
+              description="Emanuele Viterbo received his degree (Laurea) in Electrical Engineering in 1989 and his Ph.D. in 1995 in Electrical Engineering, both from the Politecnico di Torino, Torino, Italy. From 1990 to 1992 he was with the European Patent Office, The Hague, The Netherlands, as a patent examiner in the field of dynamic recording and error-control coding. Between 1995 and 1997 he held a post-doctoral position in the Dip. di Elettronica of the Politecnico di Torino. In 1997-98 he was a post-doctoral research fellow in the Information Sciences Research Center of AT&T Research, Florham Park, NJ, USA. He became first Assistant Professor (1998) then Associate Professor (2005) in Dip. di Elettronica at Politecnico di Torino. In 2006 he became Full Professor in DEIS at University of Calabria, Italy. Since 2010 he has been Professor in the Electrical and Computer Systems Eng. Department and Associate Dean Graduate Research (2012-2020) of the Faculty of Engineering at Monash University, Melbourne, Australia.
+
+              Prof. Emanuele Viterbo is a 2011 Fellow of the IEEE, a 2010 ISI Highly Cited Researcher and Member of the Board of Governors of the IEEE Information Theory Society (2011-2018) and Conference Committee Chair (2016-2018). He served as Associate Editor of IEEE Transactions on Information Theory, European Transactions on Telecommunications and Journal of Communications and Networks, Guest Editor for IEEE Journal of Selected Topics in Signal Processing: Special Issue Managing Complexity in Multiuser MIMO Systems, and Editor of Foundations and Trends® in Communications and Information Theory.
+              "
             />
           </Col>
         </Row>
@@ -141,13 +144,13 @@ function Home2() {
             <br/>
             <br />
             <p style={{paddingLeft:"20px", fontSize:"1.2em !important"}}>
-              <strong>The 21st Australian Communications Theory Workshop (AusCTW) will be held at the University of Melbourne, 5-7 February 2024. </strong>
+              <strong>The 21<sup>st</sup> Australian Communications Theory Workshop (AusCTW) will be held at the University of Melbourne, 5-7 February 2024. </strong>
               <br />
               <br />
               Workshop registration will open soon!
               <br />
               <br />
-              <strong>To facilitate maximum participation, all attendees are invited to present a poster at the workshop. More information about the poster abstract submission will be available soon.</strong>
+              <strong>To facilitate maximum participation, all attendees are invited to present a poster at the workshop. More information about the poster abstract submissions will be available soon.</strong>
               <br/>
               
             </p>

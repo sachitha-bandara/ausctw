@@ -1,16 +1,16 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Banner from "../Home/Banner";
+import BannerOther from "../Home/BannerOther";
 // import Particle from "../Particle";
 
 function Registration() {
   return (
     <section>
-      <Container fluid id="registration"  className="home-content"> 
-    <Banner mainText="Registration"/>
+      <Container fluid id="registration"  className="home-content banner-title-other"> 
+    <BannerOther mainText="Registration"/>
 </Container>
 <Container>
-    <h2>Workshop registration will open soon!</h2>
+  <span>Workshop registration will open soon!</span>
 </Container>
     </section>
     

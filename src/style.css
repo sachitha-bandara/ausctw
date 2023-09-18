@@ -254,9 +254,13 @@ button:focus {
 }
 
 .home-header {
-  padding-top: 150px !important;
+  padding-top: 180px !important;
 }
-
+.banner-title-other {
+  font-size: 3.5em !important;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  font-family: Arial, Helvetica, sans-serif;
+}
 .home-section {
   position:static;
   margin-top: 100px;
@@ -311,6 +315,8 @@ button:focus {
 .heading-name {
   font-size: 2.5em !important;
   padding-left: 45px !important;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 .main-name {
@@ -505,8 +511,18 @@ button:focus {
   font-size: 1.25rem;
   font-weight: bold;
   margin-top: 10px;
+  
+}
+.speaker-card-view .card-title:hover {
+  color: #0a58ca;
+}
+.s-card-title {
+  cursor: pointer;
 }
 
+.s-card-title:hover {
+  color: #0a58ca;
+}
 /* Speaker card description */
 .speaker-card-view .card-text {
   text-align: justify;
