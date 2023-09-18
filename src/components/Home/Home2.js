@@ -147,7 +147,7 @@ function Home2() {
               Workshop registration will open soon!
               <br />
               <br />
-              <strong>o facilitate maximum participation, all attendees are invited to present a poster at the workshop. More information about the poster abstract submission will be available soon.</strong>
+              <strong>To facilitate maximum participation, all attendees are invited to present a poster at the workshop. More information about the poster abstract submission will be available soon.</strong>
               <br/>
               
             </p>
