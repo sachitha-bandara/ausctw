@@ -10,7 +10,7 @@ function Banner(props) {
           <Row>
             <Col md={12} className="home-header">
               <h1 className="heading-name">
-                <div className="main-name"> The 21<sup>st</sup> Australian Communications Theory Workshop</div>
+                <div className="main-name"> The 21<sup>st</sup> Australian Communications Theory Workshop (AusCTW)</div>
               </h1>
               <h2 className='heading-name'> {props.secondaryText}</h2>
             </Col>
