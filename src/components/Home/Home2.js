@@ -11,7 +11,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import SpeakerCards from "./kSpeaker";
 import philippa from "../../Assets/philippa.jpg";
 import matthew from "../../Assets/MatthewMcKay.jpg";
-import emanuele from "../../Assets/Emanuele-Viterbo.jpg";
+import emanuele from "../../Assets/EmanueleViterbo.jpg";
 import steven from "../../Assets/StevenWeller.jpg";
 import CardList from "./CardList";
 
