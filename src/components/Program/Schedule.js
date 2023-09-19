@@ -30,8 +30,8 @@ function Schedule() {
                 <br/>ARC
             </td>
             <td> <strong>[Keynote Talk]</strong> 
-                <br/> Prof. Emanuele Viterbo
-                <br/>Monash University
+                <br/> Prof. Matthew McKay
+                <br/>University of Melbourne
             </td>
           </tr>
           <tr>
@@ -62,8 +62,8 @@ function Schedule() {
           <tr>
             <td>1.30 - 2.30 pm</td>
             <td> <strong>[Keynote Talk]</strong> 
-                <br/> Prof. Matthew McKay
-                <br/>University of Melbourne
+                <br/> Prof. Emanuele Viterbo
+                <br/>Monash University
             </td>
             <td> <strong>[Panel Discussion]</strong> 
                 
