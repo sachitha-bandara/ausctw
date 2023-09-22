@@ -88,45 +88,47 @@ function Home2() {
               <span className="purple"> Technical </span> Speakers
             </h1>
             <ul className="home-about-body" style={{paddingLeft:"180px", fontSize:"1.2em"}}>
-              <li>Akram Hourani (RMIT)</li>
+              <li>Pawel Dmochowski (Victoria University of Wellington, NZ)</li>
           
-              <br/>
-              <li>Amin Sakzad (Monash University)</li>
-           
-              <br/>
-              <li>Felix Shen (University of Western Australia)</li>
-         
-              <br/>
-              <li>Girish Nair (University of Melbourne)</li>
               <br/>
               <li>Margreta Kuijper (University of Melbourne)</li>
-          
-              <br/>
-              <li>Pawel Dmochowski (Victoria University of Wellington, NZ)</li>
-           
-              <br/>
-              <li>Ross Murch (HKUST)</li>
-           
-              <br/>
-              <li>Siu Wai Ho (University of Adelaide)</li>
-             
-              <br/>
-              <li>Tao Huang (James Cook University)</li>
-            
-              <br/>
-              <li>Thanh Tung Vu (Macquarie University)</li>
-            
+         
               <br/>
               <li>Tian Han (University of Melbourne)</li>
-              
               <br/>
               <li>Wibowo Hardjawana (University of Sydney)</li>
           
               <br/>
-              <li>Xiangyun (Sean) Zhou (Australian National University)</li>
-             
+              <li>Siu Wai Ho (University of Adelaide)</li>
+
+              <br/>
+              <li>Tao Huang (James Cook University)</li>
+
+              <br/>
+              <li>Akram Hourani (RMIT)</li>
+           
+              <br/>
+              <li>Ross Murch (HKUST)</li>
+              
+              <br/>
+              <li>Girish Nair (University of Melbourne)</li>
+
               <br/>
               <li>Yue Rong (Curtin University)</li> 
+
+              <br/>
+              <li>Amin Sakzad (Monash University)</li> 
+
+              <br/>
+              <li>Felix Shen (University of Western Australia)</li>
+
+              <br/>
+              <li>Thanh Tung Vu (Macquarie University)</li>
+          
+              <br/>
+              <li>Xiangyun (Sean) Zhou (Australian National University)</li>
+             
+              
               <br />
             </ul>
           </Col> 

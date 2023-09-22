@@ -29,14 +29,14 @@ function CommitteeList(){
             </h1>
             <br/>
             <Row style={{textAlign:"left", paddingLeft:"100px"}}>
-                <p>Graeme Woodward, University of Canterbury</p>
                 <p>Iain Collings, Macquarie University</p>
                 <p>Jamie Evans, University of Melbourne</p>
+                <p>Sarah Johnson, University of Newcastle</p>
+                <p>Philippa Martin, University of Canterbury</p>
                 <p>Lawrence Ong, University of Newcastle</p>
                 <p>Mahyar Shirvanimoghaddam, University of Sydney</p>
                 <p>Parastoo Sadeghi, University of New South Wales, Canberra</p>
-                <p>Philippa Martin, University of Canterbury</p>
-                <p>Sarah Johnson, University of Newcastle</p>
+                <p>Graeme Woodward, University of Canterbury</p>
             </Row>
             <br/>
             <h1 style={{ fontSize: "2em" }}>
@@ -44,13 +44,13 @@ function CommitteeList(){
             </h1>
             <br/>
             <Row style={{textAlign:"left", paddingLeft:"100px"}}>
-                <p>Birenjith Padmakumari Sasidharan, Monash University</p>
-                <p>David Huang, University of Western Australia</p>
-                <p>Hazer Inaltekin, Macquarie University</p>
-                <p>Jingge Zhu, University of Melbourne</p>
                 <p>Neda Aboutorab, University of New South Wales, Canberra</p>
+                <p>David Huang, University of Western Australia</p>
                 <p>Xiaojing Huang, University of Technology, Sydney</p>
+                <p>Hazer Inaltekin, Macquarie University</p>
                 <p>Yonghui Li, University of Sydney </p>
+                <p>Birenjith Padmakumari Sasidharan, Monash University</p>   
+                <p>Jingge Zhu, University of Melbourne</p>
             </Row>
         </Container>
     );
