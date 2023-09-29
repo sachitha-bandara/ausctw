@@ -51,8 +51,8 @@ function Schedule() {
                 <br/>Macquarie University <br/>
                 <br/>Dr. Wibowo Hardjawana
                 <br/>University of Sydney<br/>
-                <br/>Prof. Girish Nair
-                <br/>University of Melbourne
+                <br/>Dr. Timothy Molloy
+                <br/>Australian National University
             </td>
           </tr>
           <tr>

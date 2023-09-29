@@ -106,12 +106,12 @@ function Home2() {
 
               <br/>
               <li>Akram Hourani (RMIT)</li>
+
+              <br/>
+              <li>Timothy Molloy (Australian National University)</li>
            
               <br/>
               <li>Ross Murch (HKUST)</li>
-              
-              <br/>
-              <li>Girish Nair (University of Melbourne)</li>
 
               <br/>
               <li>Yue Rong (Curtin University)</li> 
