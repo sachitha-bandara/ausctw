@@ -72,7 +72,7 @@ function RegistrationPage(){
             <br/>
             <p className="travel-grants">
                 <strong>
-                The deadline for application for travel grants is 30 November 2023.
+                The deadline for application for travel grants is 20 November 2023.
                 </strong>
             </p>
           <Row>
