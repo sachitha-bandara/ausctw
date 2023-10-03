@@ -24,15 +24,6 @@ function RegistrationPage(){
             <Col md={12} className="home-about-description" style={{paddingTop:"0px !important"}}>
             
             <ul className="home-about-body reg-page" style={{paddingLeft:"180px", paddingTop:"0px !important"}}>
-              <li>After registration please send an email to Finance and Registration co-chair Tian Han <a href={`mailto:"tian.han1@unimelb.edu.au"`}>tian.han1@unimelb.edu.au</a> with the following information:</li>
-              <ul style={{paddingLeft:"200px", fontSize:"0.8em !important"}}>
-                <li style={{fontSize:"0.8em !important"}}>
-                Title and Name of the attendee
-                </li>
-                <li style={{fontSize:"0.8em !important"}}>Name of the University/Institute</li>
-              </ul>
-          
-              <br/>
               <li>More details on steps of registration can be <a href={PDFInstructions} target="_blank">found here</a>.</li>
             </ul>
           </Col> 
