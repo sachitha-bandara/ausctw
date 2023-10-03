@@ -10,7 +10,7 @@ function Registration() {
       <Container fluid id="registration"  className="home-content banner-title-other"> 
     <BannerOther mainText="Registration"/>
 </Container>
-<RegistrationPage/>
+{/* <RegistrationPage/> */}
     </section>
     
   );
