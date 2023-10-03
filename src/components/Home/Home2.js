@@ -149,7 +149,7 @@ function Home2() {
               <strong>The 21<sup>st</sup> Australian Communications Theory Workshop (AusCTW) will be held at the University of Melbourne, 5-7 February 2024. </strong>
               <br />
               <br />
-              Workshop registration is open!
+              Workshop registration is open now!
               <br />
               <br />
               <strong>To facilitate maximum participation, all attendees are invited to present a poster at the workshop. More information about the poster abstract submissions will be available soon.</strong>
