@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import PDFInstructions from "../../Assets/Instructions.pdf";
+import PDFInstructions from "../../Assets/Instructions_new.pdf";
 
 function RegistrationPage(){
     
