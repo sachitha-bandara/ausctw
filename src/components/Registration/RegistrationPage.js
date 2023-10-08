@@ -9,7 +9,7 @@ function RegistrationPage(){
         <Row style={{marginTop:"0"}}>
           <Col md={12} >
             
-            <ul className="home-about-body" style={{paddingLeft:"180px", fontSize:"1.2em"}}>
+            <ul className="travel-grants" style={{paddingLeft:"50px"}}>
               <li>Registration for all participants of AusCTW 2024 is required.</li>
           
               <br/>
@@ -18,24 +18,17 @@ function RegistrationPage(){
           </Col> 
           <Row>
             <Col>
-            <Button variant="success" href="https://ecommerce.unimelb.edu.au/ausctw-2024" target="_blank">Register Here</Button>
+            <Button variant="primary" href="https://ecommerce.unimelb.edu.au/ausctw-2024" target="_blank">Register Here</Button>
             </Col>
            
             <Col md={12} className="home-about-description" style={{paddingTop:"0px !important"}}>
             
-            <ul className="home-about-body reg-page" style={{paddingLeft:"180px", paddingTop:"0px !important"}}>
+            <ul className="reg-page travel-grants" style={{paddingLeft:"50px", paddingTop:"0px !important"}}>
               <li>More details on steps of registration can be <a href={PDFInstructions} target="_blank">found here</a>.</li>
+              <br/>
+              <li><strong>Important Notice: </strong>Please note that a surcharge of 0.99% - 4% may apply to your card payments, depending on the payment option you choose.</li>
             </ul>
           </Col> 
-          </Row>
-          <Row>
-            <h2 style={{color:"red", paddingBottom:"10px"}}>Important Notice</h2>
-            <br/>
-            <br/>
-            <p>
-                <strong> Please note that a surcharge of 0.99% - 4% may apply to your card payments, depending on the payment option you choose.
-                </strong>
-            </p>
           </Row>
           <Row>
           <p className="travel-grants">If you have any questions regarding the registration, please email <a href={`mailto:"tian.han1@unimelb.edu.au"`}>tian.han1@unimelb.edu.au</a>.</p>
