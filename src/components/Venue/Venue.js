@@ -18,7 +18,7 @@ function Venue() {
             <li>
             Clocktower Apartment Hotel
             <ul className="home-about-body list-items" style={{paddingLeft:"80px"}}>
-              <li>Website: <a href="https://www.clocktower.com.au/">https://www.clocktower.com.au/</a></li>
+              <li>Website: <a href="https://www.clocktower.com.au/" target="_blank" rel="noopener noreferrer">https://www.clocktower.com.au/</a></li>
               <li>Distance: 0.3 km</li>
             </ul>
             </li>
@@ -26,7 +26,7 @@ function Venue() {
             <li>
             BEST WESTERN PLUS Travel Inn
             <ul className="home-about-body list-items" style={{paddingLeft:"80px"}}>
-              <li>Website: <a href="https://www.bestwestern.com/en_US/book/hotels-in-melbourne/best-western-plus-travel-inn-hotel/">https://www.bestwestern.com/en_US/book/hotels-in-melbourne/best-western-plus-travel-inn-hotel/</a></li>
+              <li>Website: <a href="https://www.bestwestern.com/en_US/book/hotels-in-melbourne/best-western-plus-travel-inn-hotel/" target="_blank" rel="noopener noreferrer">https://www.bestwestern.com/en_US/book/hotels-in-melbourne/best-western-plus-travel-inn-hotel/</a></li>
               <li>Distance: 0.35 km</li>
             </ul>
             </li>
@@ -34,7 +34,7 @@ function Venue() {
             <li>
             Ibis Melbourne - Hotel & Apartments
             <ul className="home-about-body list-items" style={{paddingLeft:"80px"}}>
-              <li>Website: <a href="https://www.guestreservations.com/ibis-melbourne-hotel-and-apartments/">https://www.guestreservations.com/ibis-melbourne-hotel-and-apartments/</a></li>
+              <li>Website: <a href="https://www.guestreservations.com/ibis-melbourne-hotel-and-apartments/" target="_blank" rel="noopener noreferrer">https://www.guestreservations.com/ibis-melbourne-hotel-and-apartments/</a></li>
               <li>Distance: 0.8 km</li>
             </ul>
             </li>
@@ -42,7 +42,7 @@ function Venue() {
             <li>
             Jasper Boutique Hotel
             <ul className="home-about-body list-items" style={{paddingLeft:"80px"}}>
-              <li>Website: <a href="https://jasper-hotel-melbourne.hotelsone.com">https://jasper-hotel-melbourne.hotelsone.com</a></li>
+              <li>Website: <a href="https://jasper-hotel-melbourne.hotelsone.com" target="_blank" rel="noopener noreferrer">https://jasper-hotel-melbourne.hotelsone.com</a></li>
               <li>Distance: 0.9 km</li>
             </ul>
             </li>
@@ -50,7 +50,7 @@ function Venue() {
             <li>
             Rydges Melbourne
             <ul className="home-about-body list-items" style={{paddingLeft:"80px"}}>
-              <li>Website: <a href="https://www.rydges.com/accommodation/melbourne-vic/melbourne-cbd/">https://www.rydges.com/accommodation/melbourne-vic/melbourne-cbd/</a></li>
+              <li>Website: <a href="https://www.rydges.com/accommodation/melbourne-vic/melbourne-cbd/" target="_blank" rel="noopener noreferrer">https://www.rydges.com/accommodation/melbourne-vic/melbourne-cbd/</a></li>
               <li>Distance: 2.2 km</li>
             </ul>
             </li>
@@ -58,7 +58,7 @@ function Venue() {
             <li>
             Park Hyatt
             <ul className="home-about-body list-items" style={{paddingLeft:"80px"}}>
-              <li>Website: <a href="https://melbourne.park.hyatt.com/en/hotel/">https://melbourne.park.hyatt.com/en/hotel/</a></li>
+              <li>Website: <a href="https://melbourne.park.hyatt.com/en/hotel/" target="_blank" rel="noopener noreferrer">https://melbourne.park.hyatt.com/en/hotel/</a></li>
               <li>Distance: 2.6 km</li>
             </ul>
             </li>
@@ -77,12 +77,12 @@ function Venue() {
             <strong>By Bus</strong>
             <p style={{textAlign:"left", paddingLeft:"0px", paddingTop:"10px"}}>
             Shuttle bus service is available from Melbourne Airport to the heart of Melbourne City at Southern Cross Station. Services commence 4am and continue to 1am with departures every 10 minutes between 7am and 7pm. 
-            Please check the detailed timetable <a href="https://www.skybus.com.au/melbourne-city-express/timetable/">here</a>.
+            Please check the detailed timetable <a href="https://www.skybus.com.au/melbourne-city-express/timetable/" target="_blank" rel="noopener noreferrer">here</a>.
             </p>
 
             <p style={{textAlign:"left", paddingLeft:"0px"}}>
             From Southern Cross Station, you will have to catch a metered taxi or tram service to get to Melbourne Connect and the nearby hotels. 
-            Tram Map for Melbourne is available <a href="https://www.ptv.vic.gov.au/assets/PTV-default-site/Maps-and-Timetables-PDFs/Maps/Network-maps/Tram_Network_Map_October-2023.pdf">here</a>.
+            Tram Map for Melbourne is available <a href="https://www.ptv.vic.gov.au/assets/PTV-default-site/Maps-and-Timetables-PDFs/Maps/Network-maps/Tram_Network_Map_October-2023.pdf" target="_blank" rel="noopener noreferrer">here</a>.
             </p>
             </li>
 
