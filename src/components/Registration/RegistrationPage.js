@@ -14,6 +14,13 @@ function RegistrationPage(){
           
               <br/>
               <li>Registration includes all the technical programs, morning and afternoon tea, and the banquet.</li>
+              <br/>
+                <ul style={{textAlign:"left"}}>
+                    <li style={{textAlign:"left"}}>Student registration (by 14, January, 2024): $ 200</li>
+                    <li style={{textAlign:"left"}}>Student registration (from 15, January, 2024): $250</li>
+                    <li style={{textAlign:"left"}}>Full registration (by 14, January, 2024): $ 350</li>
+                    <li style={{textAlign:"left"}}>Full registration (from 15, January, 2024):  $450</li>
+                </ul>
             </ul>
           </Col> 
           <Row>
