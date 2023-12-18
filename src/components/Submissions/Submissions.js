@@ -13,7 +13,7 @@ function Submissions() {
         <span><strong>Submission guidelines for non-peer-reviewed poster abstracts</strong> </span>
         <br/>
         <br/>
-        <p style={{textAlign:"left"}}>To facilitate maximum participation, poster slots will be allocated to attendees who submit a title and brief abstract (maximum 300 words) by 7, January 2024. Abstracts and author information are to be emailed to the submissions and awards co-chair Zainab Razia Zaidi (email: <a href={`mailto:"zainab.raziazaidi@unimelb.edu.au"`}>zainab.raziazaidi@unimelb.edu.au</a>). Poster sizes should be 60cm in width and 90cm in height. (This allows for A1 portrait and A1 landscape).</p><br/>
+        <p style={{textAlign:"left"}}>To facilitate maximum participation, poster slots will be allocated to attendees who submit a title and brief abstract (maximum 300 words) by 7, January 2024. Abstracts and author information are to be emailed to the submissions and awards co-chair Zainab Razia Zaidi (email: <a href={`mailto:"zainab.raziazaidi@unimelb.edu.au"`}>zainab.raziazaidi@unimelb.edu.au</a>). Poster boards are 1200W x 1800H, which allows for posters of size A0 or less (either landscape or portrait).</p><br/>
         <p style={{textAlign:"left"}}>The abstract submission guidelines are as follows:</p>
         <ol style={{textAlign:"left"}}>
             <li style={{textAlign:"left"}}>Please use the following format for the abstract submission
