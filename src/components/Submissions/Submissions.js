@@ -13,7 +13,7 @@ function Submissions() {
         <span><strong>Submission guidelines for non-peer-reviewed poster abstracts</strong> </span>
         <br/>
         <br/>
-        <p style={{textAlign:"left"}}>To facilitate maximum participation, poster slots will be allocated to attendees who submit a title and brief abstract (maximum 300 words) by 7, January 2024. Abstracts and author information are to be emailed to the submissions and awards co-chair Zainab Razia Zaidi (email: <a href={`mailto:"zainab.raziazaidi@unimelb.edu.au"`}>zainab.raziazaidi@unimelb.edu.au</a>). Poster boards are 1200W x 1800H, which allows for posters of size A0 or less (either landscape or portrait).</p><br/>
+        <p style={{textAlign:"left"}}>To facilitate maximum participation, poster slots will be allocated to attendees who submit a title and brief abstract (maximum 300 words) by 14, January 2024. Abstracts and author information are to be emailed to the submissions and awards co-chair Zainab Razia Zaidi (email: <a href={`mailto:"zainab.raziazaidi@unimelb.edu.au"`}>zainab.raziazaidi@unimelb.edu.au</a>). Poster boards are 1200W x 1800H, which allows for posters of size A0 or less (either landscape or portrait).</p><br/>
         <p style={{textAlign:"left"}}>The abstract submission guidelines are as follows:</p>
         <ol style={{textAlign:"left"}}>
             <li style={{textAlign:"left"}}>Please use the following format for the abstract submission
@@ -27,7 +27,7 @@ function Submissions() {
             </li>
             <br/>
             <li style={{textAlign:"left"}}>
-              Please submit the above information to <a href={`mailto:"zainab.raziazaidi@unimelb.edu.au"`}>zainab.raziazaidi@unimelb.edu.au</a> by 7, January 2024
+              Please submit the above information to <a href={`mailto:"zainab.raziazaidi@unimelb.edu.au"`}>zainab.raziazaidi@unimelb.edu.au</a> by 14, January 2024
             </li>
 
         </ol>
@@ -37,8 +37,8 @@ function Submissions() {
       <span><strong>Submission guidelines for the 5-min Thesis Competition</strong> </span>
         <br/>
         <br/>
-        <p style={{textAlign:"left"}}>The 5-min Thesis Competition is open only for the final year PhD students. To enter the competition please submit the title and a brief abstract (maximum 300 words), along with the start date of your PhD and the list of publications from your PhD work by 7 January 2024. All this information should be submitted in one PDF document and to be emailed to the submissions and awards co-chair Erfan Khodard (email: Erfan Khordad <a href={`mailto:"erfan.khordad@unimelb.edu.au"`}>erfan.khordad@unimelb.edu.au</a>).</p><br/>
-        <p style={{textAlign:"left"}}>Our selection committee will go through the submissions and select 5 applications to be presented at the workshop. You will be informed of the results of your submission by 14th January 2024.</p>
+        <p style={{textAlign:"left"}}>The 5-min Thesis Competition is open only for the final year PhD students. To enter the competition please submit the title and a brief abstract (maximum 300 words), along with the start date of your PhD and the list of publications from your PhD work by 14 January 2024. All this information should be submitted in one PDF document and to be emailed to the submissions and awards co-chair Erfan Khodard (email: Erfan Khordad <a href={`mailto:"erfan.khordad@unimelb.edu.au"`}>erfan.khordad@unimelb.edu.au</a>).</p><br/>
+        <p style={{textAlign:"left"}}>Our selection committee will go through the submissions and select 5 applications to be presented at the workshop. You will be informed of the results of your submission by 16th January 2024.</p>
       </Container>
     </section>
   );
