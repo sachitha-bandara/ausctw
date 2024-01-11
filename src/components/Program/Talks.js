@@ -7,6 +7,7 @@ function Talks() {
     return (
         <Container>
             <CardForSpeaker
+            id="philippa"
             talk = "Keynote Talk" 
             name ="Prof. Philippa Martin, University of Canterbury"
             title = "Can bits and bytes make a difference? "
@@ -17,6 +18,7 @@ function Talks() {
             <CardForSpeaker 
             leftColumnRatio={3}
             rightColumnRatio={2}
+            id="mckay"
             talk = "Keynote Talk" 
             name ="Prof. Matthew McKay, University of Melbourne "
             title = "How information technologies can aid the rational design of variant-proof vaccines and drugs"
@@ -26,6 +28,7 @@ function Talks() {
 
             <CardForSpeaker 
             talk = "Keynote Talk" 
+            id="weller"
             name ="Prof. Steven Weller, Australian Research Council"
             title = "Communications theory research, a perspective from the Australian Research Council (ARC)"
             abstract = "This presentation will consider recent patterns, trends and opportunities for future ARC funding of communications theory research. Recent changes to ARC funding schemes will also be considered, such as the new two-stage approach to the grant application process for the Discovery Projects Scheme 2025 round, involving a streamlined Expression of Interest stage."
@@ -33,6 +36,7 @@ function Talks() {
             />
 
             <CardForSpeaker 
+            id="emanuele"
             talk = "Keynote Talk" 
             name ="Prof. Emanuele Viterbo, Monash University "
             title = "Reflections on OTFS and delay-Doppler Communications"
@@ -43,6 +47,7 @@ function Talks() {
             <CardForSpeaker 
             leftColumnRatio={3}
             rightColumnRatio={2}
+            id="powel"
             talk = "Technical Talk" 
             name ="Pawel Dmochowski, Victoria University of Wellington, NZ"
             title = "Channel Separation for Low Complexity RIS Design"
@@ -52,6 +57,7 @@ function Talks() {
 
 
             <CardForSpeaker 
+            id="margreta"
             talk = "Technical Talk" 
             name ="Margreta Kuijper (University of Melbourne)"
             title = "Simple(x) coding for distributed storage"
@@ -66,6 +72,7 @@ function Talks() {
             <CardForSpeaker 
             leftColumnRatio={3}
             rightColumnRatio={2}
+            id="tian"
             talk = "Technical Talk" 
             name ="Tian Han (University of Melbourne)"
             title = "Radar Ambiguity Function Sidelobe Level Analysis of FSK-Based Joint Communications and Radar"
@@ -77,6 +84,7 @@ function Talks() {
             <CardForSpeaker 
             leftColumnRatio={3}
             rightColumnRatio={2}
+            id="wibowo"
             talk = "Technical Talk" 
             name ="Wibowo Hardjawana (University of Sydney)"
             title = "AI-based Matrix Inversion Solver for Symbol Detection"
@@ -86,6 +94,7 @@ function Talks() {
             />
 
             <CardForSpeaker 
+            id="siuwai"
             talk = "Technical Talk" 
             name ="Siu Wai Ho (University of Adelaide)"
             title = "Latent Structure Discovery by Automated Information Theoretic Inequality Prover"
@@ -100,6 +109,7 @@ function Talks() {
             <CardForSpeaker 
             leftColumnRatio={3}
             rightColumnRatio={2}
+            id="huang"
             talk = "Technical Talk" 
             name ="Tao Huang (James Cook University)"
             title = "V2X Cooperative Perception for Autonomous Driving: Recent Advances and Challenges"
@@ -109,6 +119,7 @@ function Talks() {
             />
 
             <CardForSpeaker 
+            id="akram"
             talk = "Technical Talk" 
             name ="Akram Hourani (RMIT)"
             title = "Mega Satellite Constellations: Challenges, Opportunities, and Performance Analysis"
@@ -120,6 +131,7 @@ function Talks() {
             <CardForSpeaker 
             leftColumnRatio={3}
             rightColumnRatio={2}
+            id="timothy"
             talk = "Technical Talk" 
             name ="Timothy Molloy (Australian National University)"
             title = "Trajectory Entropies for Active State Estimation and Obfuscation in POMDPs"
@@ -129,6 +141,7 @@ function Talks() {
             />
 
             <CardForSpeaker 
+            id="ross"
             talk = "Technical Talk" 
             name ="Ross Murch (HKUST)"
             title = "Linking Electromagnetic Modeling with Wireless System Design"
@@ -141,6 +154,7 @@ function Talks() {
             />
 
             <CardForSpeaker 
+            id="rong"
             talk = "Technical Talk" 
             name ="Yue Rong (Curtin University)"
             title = "Undersea diver communication system using speech/text conversion"
@@ -154,6 +168,7 @@ function Talks() {
             <CardForSpeaker 
             leftColumnRatio={3}
             rightColumnRatio={2}
+            id="amin"
             talk = "Technical Talk" 
             name ="Amin Sakzad (Monash University)"
             title = "High Throughput Lattice-based Signatures on GPUs: Comparing Falcon and Mitaka"
@@ -165,6 +180,7 @@ function Talks() {
             <CardForSpeaker 
             leftColumnRatio={3}
             rightColumnRatio={2}
+            id="felix"
             talk = "Technical Talk" 
             name ="Felix Shen (University of Western Australia)"
             title = "Forward Scatter Shadow Ratio in Spherical Wave and an Optimization Method for Shadow Profile Retrieval"
@@ -176,6 +192,7 @@ function Talks() {
             <CardForSpeaker 
             leftColumnRatio={3}
             rightColumnRatio={2}
+            id="vu"
             talk = "Technical Talk" 
             name ="Thanh Tung Vu (Macquarie University)"
             title = "User Association for Wide-Area mm-Wave Networks"
@@ -187,6 +204,7 @@ function Talks() {
             <CardForSpeaker 
             leftColumnRatio={3}
             rightColumnRatio={2}
+            id="sean"
             talk = "Technical Talk" 
             name ="Xiangyun (Sean) Zhou (Australian National University)"
             title = "From Perfect Secrecy to Partial Secrecy: A Quick Look at Physical-Layer Security Metrics"

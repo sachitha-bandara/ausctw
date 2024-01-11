@@ -44,4 +44,15 @@
   .talkType {
   color: #0a58ca;
   }
+
+  .hover-text { 
+    cursor: pointer; /* Change cursor to hand on hover */
+    font-weight: 'bold';
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+/* Change text color on hover */
+.hover-text:hover {
+    color: #0a58ca; /* Color to change to on hover */
+}
   
