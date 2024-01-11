@@ -1,0 +1,47 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  .cardTitle {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .cardContent {
+    display: flex;
+    flex: 1;
+    margin-top: 15px;
+  }
+  
+  .leftColumn {
+    flex: 1;
+    padding: 0 10px;
+  }
+  
+  .rightColumn {
+    flex: 2; /* Change to 2 for a 1:2 ratio */
+    padding: 0 10px;
+    border-left: 1px solid #ccc;
+  }
+  
+  .columnTitle {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .columnContent {
+    margin-top: 10px;
+    text-align: left;
+  }
+  .boldText {
+    font-weight: bold;
+  }
+  .talkType {
+  color: #0a58ca;
+  }
+  
