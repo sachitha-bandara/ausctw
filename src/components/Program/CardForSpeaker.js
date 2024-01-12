@@ -8,16 +8,17 @@ function CardForSpeaker ({name,title,abstract,bio, talk, leftColumnRatio, rightC
       <div className="cardContent">
         <div className="leftColumn" style={{ flex: leftColumnRatio }}>
           <div className="columnTitle">Title : {title}</div>
+          <div className="columnContent abstract">
+            <p> <span className='boldText'>Abstract</span> : <span className='make-medium'>{abstract}</span></p>
+          </div>
           <div className="columnContent">
-            <p> <span className='boldText'>Abstract</span> : {abstract}</p>
+            <p ><span className='boldText'>Bio</span> : <span className='make-lighter'>{bio}</span></p>
           </div>
         </div>
-        <div className="rightColumn" style={{ flex: rightColumnRatio }}>
+        {/* <div className="rightColumn" style={{ flex: rightColumnRatio }}> */}
           {/* <div className="columnTitle">Right Column Title</div> */}
-          <div className="columnContent">
-            <p><span className='boldText'>Bio</span> : {bio}</p>
-          </div>
-        </div>
+          
+        {/* </div> */}
       </div>
     </div>
   );

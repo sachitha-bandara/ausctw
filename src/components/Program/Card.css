@@ -30,7 +30,7 @@
   }
   
   .columnTitle {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
   }
   
@@ -43,6 +43,15 @@
   }
   .talkType {
   color: #0a58ca;
+  }
+  .make-medium {
+    font-weight: 550;
+  }
+  .make-lighter {
+    font-weight: 400;
+  }
+  .abstract {
+    font-size: 17px;
   }
 
   .hover-text { 

@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Schedule from "./Schedule";
 import BannerOther from "../Home/BannerOther";
 import Talks from "./Talks";
-import PDFTalkDetails from "../../Assets/TalkDetails.pdf";
+import PDFTalkDetails from "../../Assets/Talk_details_v2.pdf";
 
 function Program() {
   return (
