@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 // import Particle from "../Particle";
 import BannerOther from "../Home/BannerOther";
+import PDFVenueDetails from '../../Assets/Venue.pdf';
 
 function Venue() {
   return (
@@ -11,6 +12,9 @@ function Venue() {
 </Container>
       <Container>
         <p style={{textAlign:"left"}}><strong>The 2024 AusCTW will be held at Level 1, Forum, Melbourne Connect, Faculty of Engineering and Information Technology, University of Melbourne. </strong></p>
+        <p style={{textAlign:"left"}}>How to get there: The Forum is accessible via the Superfloor of Melbourne Connect.</p>
+        <p style={{textAlign:"left"}}>Enter the foyer through the revolving glass doors from the covered walkway at 700 Swanston Street and proceed to the Superfloor via the stairs or by using the lifts on the right side of the foyer (press M on the lift call button).</p>
+        <p style={{textAlign:"left"}}>Upon exiting the lifts or arriving at the top of the stairs, proceed to the Forum doors located to the right of the top of the stairs. Please go to the concierge if any further directions are required. More details on how to get there can be found <a href={PDFVenueDetails} target="_blank">here</a>.</p>
         <Row>
           <h2 style={{paddingTop:"10px"}}>Hotels</h2>
           <p style={{textAlign:"left"}}>Here are some hotels near to the Melbourne Connect, along with their websites and approximate distances from the conference venue:</p>

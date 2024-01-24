@@ -106,7 +106,7 @@ function Schedule() {
                Mr. Tian Han
                 <br/>University of Melbourne
             </td>
-            <td> <strong>[5-min Thesis Competition]</strong> 
+            <td> <strong>[5-min Thesis Presentation]</strong> 
             </td>
             <td> 
             </td>
@@ -117,7 +117,7 @@ function Schedule() {
                 Dr. Amin Sakzad
                 <br/>Monash University
             </td>
-            <td> <strong>[5-min Thesis Competition]</strong> 
+            <td> <strong>[5-min Thesis Presentation]</strong> 
             </td>
             <td> 
             </td>
