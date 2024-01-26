@@ -34,12 +34,33 @@ function Submissions() {
         <br/>
       </Container>
       <Container>
+      <span><strong>Poster presentation guidelines</strong> </span>
+        <br/>
+        <br/>
+        <p style={{textAlign:"left"}}>Poster Board Dimensions:</p>
+        <ul style={{textAlign:"left"}}>
+          <li>Poster boards measure 1200W x 1800H.</li>
+          <li>Accommodates posters of size A0 or smaller.</li>
+          <li>Suitable for both landscape and portrait orientations.</li>
+        </ul>
+        <p style={{textAlign:"left"}}>Printing Information:</p>
+        <ul style={{textAlign:"left"}}>
+          <li>Participants are required to bring a printed copy of their poster.</li>
+          <li>Printing facilities will not be available onsite.</li>
+        </ul>
+        <p style={{textAlign:"left"}}>Program Booklet:</p>
+        <ul style={{textAlign:"left"}}>
+          <li>Participants will receive the program booklet at the beginning of the workshop.</li>
+          <li>Your allocated poster presentation time will be specified in the program booklet.</li>
+        </ul>
+      </Container>
+      {/* <Container>
       <span><strong>Submission guidelines for the 5-min Thesis Competition</strong> </span>
         <br/>
         <br/>
         <p style={{textAlign:"left"}}>The 5-min Thesis Competition is open only for the final year PhD students. To enter the competition please submit the title and a brief abstract (maximum 300 words), along with the start date of your PhD and the list of publications from your PhD work by 14 January 2024. All this information should be submitted in one PDF document and to be emailed to the submissions and awards co-chair Erfan Khodard (email: Erfan Khordad <a href={`mailto:"erfan.khordad@unimelb.edu.au"`}>erfan.khordad@unimelb.edu.au</a>).</p><br/>
         <p style={{textAlign:"left"}}>Our selection committee will go through the submissions and select 5 applications to be presented at the workshop. You will be informed of the results of your submission by 16th January 2024.</p>
-      </Container>
+      </Container> */}
     </section>
   );
 }
