@@ -23,18 +23,19 @@ function Schedule() {
           </tr>
           <tr>
             <td>9.10 - 10.10 am</td>
-            <td> <div className='hover-text'><LinkName talk = "[Keynote Talk]" target= "philippa"/></div> 
-                 Prof. Philippa Martin
-                <br/>University of Canterbury
+            <td><div className='hover-text'><LinkName talk = "[Keynote Talk]" target= "mckay"/></div> 
+                 Prof. Matthew McKay
+                <br/>University of Melbourne
             </td>
             <td> <div className='hover-text'><LinkName talk = "[Keynote Talk]" target= "weller"/></div>
                  Prof. Steven Weller
                 <br/>ARC
             </td>
-            <td><div className='hover-text'><LinkName talk = "[Keynote Talk]" target= "mckay"/></div> 
-                 Prof. Matthew McKay
-                <br/>University of Melbourne
+            <td> <div className='hover-text'><LinkName talk = "[Keynote Talk]" target= "philippa"/></div> 
+                 Prof. Philippa Martin
+                <br/>University of Canterbury
             </td>
+            
           </tr>
           <tr>
             <td>10.10 - 10.40 am</td>
